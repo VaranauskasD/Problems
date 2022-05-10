@@ -1,6 +1,6 @@
 var LRUCache = function (capacity) {
   this.capacity = capacity
-  this.cacheKey = null
+  this.cacheKey = null // Implement a doubly linked list
   this.cacheObj = {}
 }
 
