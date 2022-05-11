@@ -1,3 +1,5 @@
+const Node = () => {}
+
 var LRUCache = function (capacity) {
   this.capacity = capacity
   this.cacheKey = null // Implement a doubly linked list
