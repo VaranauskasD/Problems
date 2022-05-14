@@ -1,4 +1,7 @@
-const Node = () => {}
+const Node = () => {
+  this.next = null
+  this.prev = null
+}
 
 var LRUCache = function (capacity) {
   this.capacity = capacity
