@@ -5,7 +5,6 @@ const Node = () => {
 
 var LRUCache = function (capacity) {
   this.capacity = capacity
-  this.cacheObj = {}
 }
 
 LRUCache.prototype.get = function (key) {
